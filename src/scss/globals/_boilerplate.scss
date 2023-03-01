@@ -58,3 +58,10 @@ a{
 li{
     padding: 0.2rem;
 }
+
+.max-width-container{
+
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+}
