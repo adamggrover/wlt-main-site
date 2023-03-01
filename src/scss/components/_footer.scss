@@ -55,13 +55,18 @@ footer a:hover{
 .wlt-logo{
 
     width: 100%;
-    max-width: 12rem;
+    
     height: auto;
     
     
     content: url(Assets/logos/logo-bold-no-background.svg);
 
     
+}
+
+.footer-logo-size{
+
+    max-width: 18rem;
 }
 
 .footer-icon{

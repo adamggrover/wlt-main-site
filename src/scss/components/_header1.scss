@@ -6,7 +6,8 @@
     max-width: inherit;
     align-items: center;
     align-content: center;
-    z-index: 5; 
+    z-index: 5;
+    justify-content: center; 
 }
 
 
@@ -35,7 +36,7 @@
 .logo-col{
     display: flex;
     
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
     
     
@@ -136,13 +137,13 @@ button.hamburger{
 
 .social-col{
     z-index: 2;
-    font-size: 1.2rem;    
+    font-size: 0.8rem;    
     display: flex;
     
     //padding-right: 1.5rem;
     justify-content: flex-end;
     
-    align-items: center;
+    //align-items: center;
     a{
         text-decoration: none;
     }
@@ -150,9 +151,10 @@ button.hamburger{
 }
 
 .social-links{
-    display: flex;
-    padding-top: 0.4rem;
-    padding-left: 1.7rem;
+    //align-self: center;
+    //justify-self: center;
+    //padding-top: 0.4rem;
+    //padding-left: 1.7rem;
 
 }
 
@@ -262,4 +264,14 @@ header{
         background-color: transparent;
         border: none;
     }
+}
+
+.header-icon-container{
+
+    border: 0.1rem solid white;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
