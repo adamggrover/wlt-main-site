@@ -1,17 +1,17 @@
 </main>
     <!-- FOOTER SECTION-->
-    <footer class="container-fluid p-0">
+    <footer class="container-fluid p-0 pt-4">
         <div class="footer-content container pb-4">
             <div class="row footer-logo">
                 <div class="col-md-4">
-                    <img src="" alt="Weare Academy Logo" class="footer-icon">
+                    <img src="" alt="Wessex Learning Trust Logo" class="wlt-logo footer-logo-size mb-3">
                 </div>
 
             </div>
             <div class="row footer-text">
                 <div class="col-md-4 footer-contact footer-column">
-                    <p class="mb-3">Weare Academy<br>Notting Hill Way, Weare<br>Somerset BS26 2JS</p>
-                    <p class="mb-4">Executive Headteacher: Emma Tovey</p>
+                    <p class="mb-4">Weare Academy<br>Notting Hill Way, Weare<br>Somerset BS26 2JS</p>
+                    
                     <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934 732270</p>
                     <p><a href="mailto:office@weareacademy.co.uk"><i class="fa-solid fa-envelope"></i></i><span class="footer-spacer"></span>Email Us</a></p>
                     <p class="mb-4"><a href="https://www.google.com/maps/dir//Weare+Academy+First+School+and+Rainbow+Woods+Pre-School,+Notting+Hill+Way,+Weare,+Axbridge/@51.2733777,-2.8855986,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48721d21c9005ee1:0x223018a0fa07df35!2m2!1d-2.8505693!2d51.2733289" target="_blank" ><i class="fa-solid fa-location-dot"></i></i><span class="footer-spacer"></span>Get Directions</a></p>
@@ -49,7 +49,7 @@
                         <div class="col-md-4 pt-0">
                             
 
-                            <img class="wlt-logo text-left" src="" alt="">
+                
                     
                                     
                         </div>
@@ -67,10 +67,7 @@
                         
 
                         <div class="col-md-4 pt-0 ">
-                            <small><p>Station Road, Cheddar</p></small>
-                            <small><p>Somerset, BS27 3AQ</p></small>
-                            <small><p>Company Number: 7348580</p></small>
-                            <small><p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934 745363</p></small>
+          
                             
                             
                                     
