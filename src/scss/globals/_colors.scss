@@ -22,12 +22,19 @@ $weare-blue: #2D4190;
 $weare-blue-dark: #25367a;
 $weare-blue-light: #e2e6f8;
 $weare-blue-sky: #90ccee;
-$wlt-purple: rgba(65,16,81);
 
+
+
+// WLT Colors
+
+$wlt-purple: rgba(65,16,81);
+$wlt-yellow: #E5A100;
+
+// Theme Colors
 
 $primary:       $wlt-purple;
-$primary-dark: $weare-blue-dark;
-$primary-light: $weare-blue-light;
 $secondary:     $light-dark;
 $success:       $muted-purple;
-$accent:        $muted-purple;
+$accent:        $wlt-yellow;
+$primary-dark: $weare-blue-dark;
+$primary-light: $weare-blue-light;
