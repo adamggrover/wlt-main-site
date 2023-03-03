@@ -313,7 +313,7 @@ background-color: #555;
 color: #fff;
 text-align: left;
 white-space: nowrap;
-padding: 2px 7px;
+padding: 4px 7px;
 z-index: 1;
 
 
@@ -326,7 +326,7 @@ left: 0;
 
 .header-icon-container:hover #tooltip {
 
-top: 165%;
+top: 155%;
 visibility: visible;
 opacity: 1;
 }
@@ -337,7 +337,7 @@ position: absolute;
 bottom: 98%;
 left: 7%;
 margin-left: 0px;
-border-width: 7px;
+border-width: 5px;
 border-style: solid;
 border-color:  transparent transparent #555 transparent;
 
