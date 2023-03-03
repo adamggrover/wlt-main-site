@@ -58,11 +58,11 @@
                 <div class="social-col col-2 p-0">
 
                     <div class="social-icon-group">
-                        <a href="https://twitter.com/weare_school" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-twitter header-icon d-none d-md-block"></i></div></div></a>
-                        <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-facebook-f header-icon d-none d-md-block"></i></div></div></a>
-                        <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-instagram header-icon d-none d-md-block"></i></div></div></a>
-                        <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-linkedin-in header-icon d-none d-md-block"></i></div></div></a>
-                        <button onclick="openSearch()" class="social-links p-0"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-solid fa-magnifying-glass header-icon"></i></div></div></button>
+                        <a href="https://twitter.com/weare_school" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-twitter header-icon d-none d-md-block"></i><div id="tooltip">Twitter</div></div></div></a>
+                        <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-facebook-f header-icon d-none d-md-block"></i> <div id="tooltip">Facebook</div></div></div></a>
+                        <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-instagram header-icon d-none d-md-block"></i><div id="tooltip">Instagram</div></div></div></a>
+                        <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-linkedin-in header-icon d-none d-md-block"></i><div id="tooltip">Linkedin</div></div></div></a>
+                        <button onclick="openSearch()" class="social-links p-0"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-solid fa-magnifying-glass header-icon"></i><div id="tooltip">Search</div></div></div></button>
                         <div class="header-spacer p-1 d-none d-md-block"></div>
                     </div>
                     

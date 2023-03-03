@@ -152,6 +152,8 @@ button.hamburger{
     //justify-self: center;
     //padding-top: 0.4rem;
     //padding-left: 1.7rem;
+    position: relative;
+    
 
 }
 
@@ -289,4 +291,54 @@ header{
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+//---------Tooltips---------------------------------------------------
+
+.header-icon-container #tooltip{
+    transition: all 0.3s ease-in-out;
+    top: 250%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#tooltip {
+
+
+position: absolute;
+
+font-size: 0.8rem;
+min-width: fit-content;
+background-color: #555;
+color: #fff;
+text-align: left;
+white-space: nowrap;
+padding: 2px 7px;
+z-index: 1;
+
+
+
+left: 0;
+//margin-left: -60px;
+
+
+}
+
+.header-icon-container:hover #tooltip {
+
+top: 165%;
+visibility: visible;
+opacity: 1;
+}
+
+#tooltip::before {
+content: "";
+position: absolute;
+bottom: 98%;
+left: 7%;
+margin-left: 0px;
+border-width: 7px;
+border-style: solid;
+border-color:  transparent transparent #555 transparent;
+
 }
