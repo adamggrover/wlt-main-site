@@ -28,12 +28,13 @@ $weare-blue-sky: #90ccee;
 // WLT Colors
 
 $wlt-purple: rgba(65,16,81);
+$wlt-purple-light: #622478;
 $wlt-yellow: #E5A100;
 
 // Theme Colors
 
 $primary:       $wlt-purple;
-$secondary:     $light-dark;
+$secondary:     $wlt-purple-light;
 $success:       $muted-purple;
 $accent:        $wlt-yellow;
 $primary-dark: $weare-blue-dark;
