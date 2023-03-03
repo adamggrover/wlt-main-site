@@ -19,6 +19,8 @@
     flex: 0 1 auto;   
     max-width: inherit; 
     width: 100%;
+    transition: 0.3s; /* 0.5 second transition effect to slide in */
+    transition-timing-function: ease-in-out;
     
     
     
