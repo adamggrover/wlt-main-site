@@ -192,6 +192,11 @@ button.hamburger{
     transition: 0.3s; /* 0.5 second transition effect to slide in */
     transition-timing-function: ease-in-out;
 
+    .search-right i{
+        color: white;
+
+    }
+
 }
 
 .search-input-box{
