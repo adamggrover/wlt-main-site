@@ -74,11 +74,40 @@ define( 'HEADER_IMAGE_WIDTH', apply_filters( 'wlt_header_image_width', 2000 ) );
 define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'wlt_header_image_height', 600 ) );
 
 
+///------------walker nav menu-----------------------------------------
+
+/**
+ * Add a parent CSS class for nav menu items.
+ *
+ * @param array  $items The menu items, sorted by each menu item's menu order.
+ * @return array (maybe) modified parent CSS class.
+ */
+function wpdocs_add_menu_parent_class( $items ) {
+	$parents = array();
+
+	// Collect menu items with parents.
+	foreach ( $items as $item ) {
+		if ( $item->menu_item_parent && $item->menu_item_parent > 0 ) {
+			$parents[] = $item->menu_item_parent;
+		}
+	}
+
+	// Add class.
+	foreach ( $items as $item ) {
+		if ( in_array( $item->ID, $parents ) ) {
+			$item->classes[] = 'menu-parent-item';
+		}
+	}
+	return $items;
+}
+add_filter( 'wp_nav_menu_objects', 'wpdocs_add_menu_parent_class' );
+
 //Add menu locations
 
 function wlt_menus(){
 
     $locations = array(
+        'header' => 'Header Banner Menu',
         'primary' => 'Desktop Primary Left',
         'quick-links-footer' => 'Quick Links Footer',
         'quick-links-header' => 'Quick Links Header',
@@ -90,6 +119,9 @@ function wlt_menus(){
 }
 
 add_action('init', 'wlt_menus');
+
+
+
 
 
 //Register Styles
