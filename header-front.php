@@ -17,7 +17,7 @@
 
         <div class="max-width-container">
 
-            <div class="header-container row g-0 p-0 align-items-end" id="header-container">
+            <div class="header-container row g-0 p-0 align-items-start" id="header-container">
 
                 <div class="logo-col col-8">
                     <div class="logo1-container">
