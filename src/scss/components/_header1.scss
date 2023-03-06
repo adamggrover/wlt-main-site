@@ -387,10 +387,18 @@ border-color:  transparent transparent #555 transparent;
     
 }
 
-.header-banner-menu .menu-parent-item{
+.header-banner-menu ul li {
     padding-bottom: 1rem;
     padding-top: 0.5rem;
+    
 }
+
+.header-banner-menu .sub-menu li{
+    
+    padding-bottom: 0.2rem;
+}
+
+
 
 
 // Hide second level items
@@ -401,7 +409,7 @@ border-color:  transparent transparent #555 transparent;
 // Add styling
     background-color: g.$wlt-yellow;
     position: absolute;
-    top: 140%;
+    top: 130%;
     left: 68%;
     margin-left: -60px;
   
@@ -409,7 +417,7 @@ border-color:  transparent transparent #555 transparent;
     z-index: 99999;
     width: 180px;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
-    padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+    padding: 0.5rem 1rem 0.8rem 1rem;
     
     //font-weight: 500;
     font-size: 0.9rem;
@@ -439,5 +447,5 @@ border-color:  transparent transparent #555 transparent;
     
     visibility: visible;
     opacity: 1;
-    top: 110%;
+    top: 95%;
 }
