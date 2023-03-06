@@ -356,14 +356,20 @@ border-color:  transparent transparent #555 transparent;
     margin-top: 1.3rem;
     height: fit-content;
     background-color: g.$wlt-purple-light;
+    padding: 0;
+    width: 100%;
+    
 
     
 
 }
 
 .header-banner-menu-wrapper{
+    
     display: flex;
     justify-content: flex-end;
+    justify-self: center;
+    width: 84%;
     
 }
 
@@ -409,7 +415,7 @@ border-color:  transparent transparent #555 transparent;
 // Add styling
     background-color: g.$wlt-yellow;
     position: absolute;
-    top: 130%;
+    top: 120%;
     left: 68%;
     margin-left: -60px;
   
@@ -431,7 +437,7 @@ border-color:  transparent transparent #555 transparent;
 .header-banner-menu ul ul::after {
     content: "";
     position: absolute;
-    bottom: 98%;
+    bottom: 96%;
     left: 10%;
     margin-left: -5px;
     border-width: 10px;
