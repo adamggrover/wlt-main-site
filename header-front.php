@@ -75,6 +75,12 @@
       
     <div id="header-menu-container">
 
+        <div class="header-banner-menu-wrapper max-width-container">
+            <?php
+                wp_nav_menu( array( 'container_class' => 'header-banner-menu', 'theme_location' => 'header' ) );
+            ?>
+
+        </div>
     </div>
 
     </header>
