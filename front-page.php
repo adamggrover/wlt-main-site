@@ -16,8 +16,8 @@
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-duration='800' >
                           <div>
                                   <h3 CLASS="display-1 mb-3">Welcome</h3>
-                              <h4 class="display-5">To Weare Academy</h4>
-                              <p class="mt-4 mb-4">"Wessex Learning Trust is a multi-academy trust based in Somerset. We are a family of seventeen schools all located in Somerset and North Somerset."</p>
+                              <!--<h4 class="display-5">To Weare Academy</h4>-->
+                              <p class="mt-4 mb-4">"I am delighted to welcome you to the Wessex Learning Trust.  Our family of sixteen Academies here in the South-West of England strive to offer a world class, 21st century education for all young people between the ages of 2 and 19, by providing outstanding learning opportunities and creating centres of educational excellence that meet the needs of all children"</p>
                               <a href="" class="">READ MORE</a>
                           </div>
                   </div>   
@@ -36,8 +36,8 @@
                     <div class="col-lg-6 d-flex align-items-center pt-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration='800' >
                         <div class="left-welcome-content col-10 p-0">
                                 <h3 CLASS="display-1 mb-3" id="welcome-display-text">Welcome</h3>
-                            <h4 class="display-5" id="welcome-display-text">To Weare Academy</h4>
-                            <p class="mt-4 mb-4">"Wessex Learning Trust is a multi-academy trust based in Somerset. We are a family of seventeen schools all located in Somerset and North Somerset."</p>
+                            <!--<h4 class="display-5" id="welcome-display-text">To Weare Academy</h4>-->
+                            <p class="mt-4 mb-4">"I am delighted to welcome you to the Wessex Learning Trust.  Our family of sixteen Academies here in the South-West of England strive to offer a world class, 21st century education for all young people between the ages of 2 and 19, by providing outstanding learning opportunities and creating centres of educational excellence that meet the needs of all children"</p>
                             <a href="<?php
                             $page_object = get_page_by_path( '/welcome' );
                             $page_id = $page_object->ID;
