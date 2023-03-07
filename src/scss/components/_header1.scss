@@ -316,8 +316,8 @@ position: absolute;
 
 font-size: 0.8rem;
 min-width: fit-content;
-background-color: #555;
-color: #fff;
+background-color: white;
+color: g.$primary;
 text-align: left;
 white-space: nowrap;
 padding: 4px 7px;
@@ -346,7 +346,7 @@ left: 7%;
 margin-left: 0px;
 border-width: 5px;
 border-style: solid;
-border-color:  transparent transparent #555 transparent;
+border-color:  transparent transparent white transparent;
 
 }
 
@@ -375,7 +375,7 @@ border-color:  transparent transparent #555 transparent;
 
 #menu-header-1{
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-bottom: 0;
     
     
@@ -393,9 +393,9 @@ border-color:  transparent transparent #555 transparent;
     
 }
 
-.header-banner-menu ul li {
-    padding-bottom: 1rem;
-    padding-top: 0.5rem;
+.header-banner-menu ul li a {
+    padding-bottom: 2rem;
+    padding-top: 0.4rem;
     
 }
 
@@ -411,19 +411,21 @@ border-color:  transparent transparent #555 transparent;
 .header-banner-menu ul ul {
     visibility: hidden;
     opacity: 0;
+    display: block;
     
 // Add styling
     background-color: g.$wlt-yellow;
     position: absolute;
-    top: 120%;
-    left: 68%;
+    top: 100%;
+    margin-top: 30px;
+    left: 61%;
     margin-left: -60px;
-  
-    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 6px rgb(0 0 0 / 20%);
+    transition: all 0.3s ease-out;
     z-index: 99999;
     width: 180px;
-    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
-    padding: 0.5rem 1rem 0.8rem 1rem;
+    
+    padding: 1rem 1.4rem;
     
     //font-weight: 500;
     font-size: 0.9rem;
@@ -437,10 +439,10 @@ border-color:  transparent transparent #555 transparent;
 .header-banner-menu ul ul::after {
     content: "";
     position: absolute;
-    bottom: 96%;
-    left: 10%;
-    margin-left: -5px;
-    border-width: 10px;
+    top: -20px;
+    left: 13px;
+    
+    border-width: 12px;
     border-style: solid;
     border-color:  transparent transparent g.$wlt-yellow transparent;
   
@@ -453,5 +455,6 @@ border-color:  transparent transparent #555 transparent;
     
     visibility: visible;
     opacity: 1;
-    top: 95%;
+    top: 100%;
+    margin-top: 20px;
 }
