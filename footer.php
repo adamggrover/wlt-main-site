@@ -4,12 +4,12 @@
         <div class="footer-content container pb-4">
             <div class="row footer-logo">
                 <div class="col-md-4">
-                    <img src="" alt="Wessex Learning Trust Logo" class="wlt-logo footer-logo-size mb-3">
+                    <img src="" alt="Wessex Learning Trust Logo" class="wlt-logo footer-logo-size mb-3 pt-3">
                 </div>
 
             </div>
             <div class="row footer-text">
-                <div class="col-md-4 footer-contact footer-column">
+                <div class="col-md-4 footer-contact footer-column mt-5">
                     <p class="mb-4">Weare Academy<br>Notting Hill Way, Weare<br>Somerset BS26 2JS</p>
                     
                     <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934 732270</p>
