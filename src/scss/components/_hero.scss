@@ -217,11 +217,28 @@
       transition:translate(-50%,-50%);
   }
 
+.hero-arrow-icon{
+
+  padding: 0.5rem 0.9rem;
+}
+
+.hero-arrow-box{
+  width: fit-content;
+  height: fit-content;
+  background-color: g.$primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #F5F5F5 solid 1px;
+}
+
 .hero-arrow-container{
   
   position: absolute;
-  bottom: 1.2rem;
+  bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-banner-text{
