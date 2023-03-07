@@ -22,7 +22,7 @@
                     
                 </div>
                 <div class="col-md-4 footer-links footer-column">
-                    <h6 class="footer heading mb-3">Quick Links</h6>
+                    <h6 class="footer-heading mb-3">Quick Links</h6>
                     <?php wp_nav_menu( array( 'theme_location' => 'quick-links-footer' ) ); ?>
                     
                 </div>
@@ -30,7 +30,7 @@
 
                 <div class="col-md-4 footer-accessability d-flex-column footer-column">
                     <div class="accesability-top">
-                        <h6 class="footer heading mb-3">Accessability</h6>
+                        <h6 class="footer-heading mb-3">Accessability</h6>
                         <?php wp_nav_menu( array( 'theme_location' => 'accessability' ) ); ?>
                     </div>
 
