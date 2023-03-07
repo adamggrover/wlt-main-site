@@ -4,12 +4,12 @@
 @use 'globals' as g;
 
 #welcome{
-    background-color: g.$primary;
-    color: white;
+    background-color: white;
+    color: g.$primary;
     padding-top: 2rem;
 
     a{
-        color: g.$weare-blue-sky;
+        color: g.$primary;
         &:hover{
             //color: g.$purple;
         }
