@@ -219,7 +219,7 @@
 
 .hero-arrow-icon{
 
-  padding: 0.5rem 0.9rem;
+  
 }
 
 .hero-arrow-box{
@@ -229,7 +229,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #F5F5F5 solid 1px;
+  border: none;
+  height: 65px;
+  width: 70px;
+  transition: all 0.3s;
+  transition-timing-function: ease-in-out;
+  
+}
+
+.hero-arrow-box:hover{
+  background-color: g.$accent;
+  border: white solid 5px;
 }
 
 .hero-arrow-container{
