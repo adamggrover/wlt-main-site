@@ -113,16 +113,16 @@
         </div> -->
 
         <div class="slide-holder">
-          <img class="slide slide-img1"src="/wp-content/themes/weare23/Assets/images/2000px/school.jpg" alt=""> 
+          <img class="slide slide-img1"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/playground.jpg" alt=""> 
             <div class="overlay-hero"></div>
         </div>
        
         <div class="slide-holder">
-            <img class="slide slide-img2"src="/wp-content/themes/weare23/Assets/images/2000px/birdhouse.jpg" alt="">
+            <img class="slide slide-img2"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/child.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
         <div class="slide-holder">
-        <img class="slide slide-img3"src="/wp-content/themes/weare23/Assets/images/2000px/boys-on-pc.jpg" alt=""> 
+        <img class="slide slide-img3"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/girl.jpg" alt=""> 
             <div class="overlay-hero"></div>
         </div>
 
