@@ -114,16 +114,47 @@
 
         <div class="slide-holder">
           <img class="slide slide-img1"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/playground.jpg" alt=""> 
-            <div class="overlay-hero"></div>
+            <div class="overlay-hero">
+                
+               
+                
+            </div>
+            <div id="hero-text-container">
+                    <h2 class="display-1 mb-4">Lorem ipsum solor di mor</h2>
+                    <p class="h5 mb-5">Vestibulum placerat arcu turpis, vel finibus sapien ultrices eget. Nam sit amet elit consequat, varius nisl ac, ultricies mauris. Suspendisse condimentum ante eu imperdiet porttitor.</p>
+                    <button class="hero-slider-button">Find out more</button>
+                </div>
+            
         </div>
        
         <div class="slide-holder">
-            <img class="slide slide-img2"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/child.jpg" alt="">
-            <div class="overlay-hero"></div>
+          <img class="slide slide-img1"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/playground.jpg" alt=""> 
+            <div class="overlay-hero">
+                
+               
+                
+            </div>
+            <div id="hero-text-container">
+                    <h2 class="display-1 mb-4">Lorem ipsum solor di mor</h2>
+                    <p class="h5 mb-5">Vestibulum placerat arcu turpis, vel finibus sapien ultrices eget. Nam sit amet elit consequat, varius nisl ac, ultricies mauris. Suspendisse condimentum ante eu imperdiet porttitor.</p>
+                    <button class="hero-slider-button">Find out more</button>
+                </div>
+            
         </div>
+
         <div class="slide-holder">
-        <img class="slide slide-img3"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/girl.jpg" alt=""> 
-            <div class="overlay-hero"></div>
+          <img class="slide slide-img1"src="/wlt/wp-content/themes/wlt-main-site/Assets/images/2000px/playground.jpg" alt=""> 
+            <div class="overlay-hero">
+                
+               
+                
+            </div>
+            <div id="hero-text-container">
+                    <h2 class="display-1 mb-4">Lorem ipsum solor di mor</h2>
+                    <p class="h5 mb-5">Vestibulum placerat arcu turpis, vel finibus sapien ultrices eget. Nam sit amet elit consequat, varius nisl ac, ultricies mauris. Suspendisse condimentum ante eu imperdiet porttitor.</p>
+                    <button class="hero-slider-button">Find out more</button>
+                </div>
+            
         </div>
 
    
