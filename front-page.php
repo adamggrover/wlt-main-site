@@ -48,8 +48,12 @@
                     </div>   
                     <div class="welcome-right-background col-lg-6 pt-5">
                         
-                        <div class="welcome-img-container" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800'>
-                            <img src="/wp-content/themes/weare23/Assets/images/600px/reading.jpg" alt="student photo" class="img-fluid welcome-img">
+                        <div class="welcome-video-container" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800'>
+                          <video width="800" controls class="img-fluid">
+                          <source src="mov_bbb.mp4" type="video/mp4">
+                          <source src="mov_bbb.ogg" type="video/ogg">
+                            Your browser does not support HTML5 video.
+                          </video>
                         </div>
                         
         
@@ -61,9 +65,11 @@
             </div>
 
         </div>
-              
+        </section>
 
         <!-- New links section-->
+
+        <section id="img-links-section">
 
         <div class="container p-5">
             <div class="row mb-5">
@@ -197,13 +203,13 @@
             
           </div>
 
-
+        </section>
           
 
             
          
               
-      </section>
+      
 
 
 
