@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <div class="max-width-container">
+        <div class="max-width-container p-0">
 
             <div class="header-container row g-0 p-0 align-items-start" id="header-container">
 
@@ -63,7 +63,7 @@
                         <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-instagram header-icon d-none d-md-block"></i><div id="tooltip">Instagram</div></div></div></a>
                         <a href="https://en-gb.facebook.com/weareacademyschool/" target="_blank" class="social-links"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-brands fa-linkedin-in header-icon d-none d-md-block"></i><div id="tooltip">Linkedin</div></div></div></a>
                         <button onclick="openSearch()" class="social-links p-0"><div class="header-icon-container"><div class="header-icon-inner-container"><i class="fa-solid fa-magnifying-glass header-icon"></i><div id="tooltip">Search</div></div></div></button>
-                        <div class="header-spacer p-1 d-none d-md-block"></div>
+                        
                     </div>
                     
                     
@@ -77,7 +77,7 @@
 
         
 
-        <div class="header-banner-menu-wrapper">
+        <div class="header-banner-menu-wrapper max-width-container">
             <?php
                 wp_nav_menu( array( 'container_class' => 'header-banner-menu', 'theme_location' => 'header' ) );
             ?>
