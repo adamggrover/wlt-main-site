@@ -6,14 +6,19 @@ jQuery(function(){
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  fade: true,
-  autoplaySpeed: 4000,
-  speed: 2500,
+  fade: false,
+  autoplaySpeed: 2500,
+  speed: 3500,
   cssEase: 'ease-in-out',
-  dots: false,
-  touchMove: false,
-  arrows:false
+  dotsClass: 'slick-dots',
+  dots: true,
+  touchMove: true,
+  arrows:true,
+  infinite: true
+  
   });
+
+  
   
   
   
@@ -73,6 +78,24 @@ jQuery(function(){
   
   
   });
+
+
+  /// Add slick class to cloned slide to make sure styling is transferred
+
+  slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    let slidesLength = slick.$slides.length - 1,
+        isCurrentFirstOrLast = currentSlide === 0 || currentSlide === slidesLength,
+        isNextFirstOrLast = nextSlide === 0 || nextSlide === slidesLength;
+        
+    if (isCurrentFirstOrLast && isNextFirstOrLast){
+      let nextClone = $(event.currentTarget).find('.slick-cloned.slick-active');
+      setTimeout(function(){
+        nextClone.addClass('slick-current');
+      }, 100)
+    }
+  });
+
+///---------Initialise aos--------------------------------------------------
   
 AOS.init();
 
