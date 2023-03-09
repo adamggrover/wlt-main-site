@@ -358,6 +358,8 @@ border-color:  transparent transparent white transparent;
     background-color: g.$wlt-purple-light;
     padding: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
     
 
     
@@ -369,7 +371,7 @@ border-color:  transparent transparent white transparent;
     display: flex;
     justify-content: flex-end;
     justify-self: center;
-    width: 84%;
+    
     
 }
 
