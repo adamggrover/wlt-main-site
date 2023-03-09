@@ -7,7 +7,7 @@ jQuery(function(){
   slidesToScroll: 1,
   autoplay: true,
   fade: false,
-  autoplaySpeed: 2500,
+  autoplaySpeed: 4000,
   speed: 3500,
   cssEase: 'ease-in-out',
   dotsClass: 'slick-dots',
