@@ -6,9 +6,9 @@
 
         
 <!-- New welcome section-->
-    <section id="welcome">
+    <section id="welcome" class="anchor-tag">
 
-        <div class="welcome-background pt-4 pb-4">
+        <div class="welcome-background pb-4">
 
 
             <div class="container d-lg-none ">
@@ -31,7 +31,7 @@
 
                 
 
-                <div class="row p-5">
+                <div class="row">
 
                     <div class="col-lg-6 d-flex align-items-center pt-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration='800' >
                         <div class="left-welcome-content col-10 p-0">
