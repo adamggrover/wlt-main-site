@@ -123,7 +123,7 @@
                 <div class="hero-text-container">
                         <h2 class="display-1 mb-5">Lorem ipsum solor di mor</h2>
                         <p class="h5 mb-5">Vestibulum placerat arcu turpis, vel finibus sapien ultrices eget. Nam sit amet elit consequat, varius nisl ac, ultricies mauris. Suspendisse condimentum ante eu imperdiet porttitor.</p>
-                        <button class="hero-slider-button">Find out more</button>
+                        <button class="wlt-site-button">Find out more</button>
                     </div>
             </div>
         </div>
@@ -140,7 +140,7 @@
                 <div class="hero-text-container">
                         <h2 class="display-1 mb-5">Lorem ipsum solor di mor</h2>
                         <p class="h5 mb-5">Vestibulum placerat arcu turpis, vel finibus sapien ultrices eget. Nam sit amet elit consequat, varius nisl ac, ultricies mauris. Suspendisse condimentum ante eu imperdiet porttitor.</p>
-                        <button class="hero-slider-button">Find out more</button>
+                        <button class="wlt-site-button">Find out more</button>
                     </div>
             </div>
         </div>
@@ -158,7 +158,7 @@
                 <div class="hero-text-container">
                         <h2 class="display-1 mb-5">Lorem ipsum solor di mor</h2>
                         <p class="h5 mb-5">Vestibulum placerat arcu turpis, vel finibus sapien ultrices eget. Nam sit amet elit consequat, varius nisl ac, ultricies mauris. Suspendisse condimentum ante eu imperdiet porttitor.</p>
-                        <button class="hero-slider-button">Find out more</button>
+                        <button class="wlt-site-button">Find out more</button>
                     </div>
             </div>
         </div>

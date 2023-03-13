@@ -1,0 +1,21 @@
+@use 'globals' as g;
+
+.wlt-site-button{
+    border: none;
+    background-color: g.$primary;
+    width: 12.5rem;
+    height:2.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .wlt-site-button:hover{
+    background-color: g.$accent;
+    border: white solid 5px;
+  }
+  
