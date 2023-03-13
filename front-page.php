@@ -71,136 +71,138 @@
 
         <section id="img-links-section">
 
-        <div class="container p-5">
-            <div class="row mb-5">
+        <div class="container">
+            <div class="row mb-5 row-cols-4">
 
-            <div class="col-sm-3">
+            <div class="col">
                 
                 
           
-            <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="500">
+              <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="500">
 
 
-            <a href="<?php
-                        $page_object = get_page_by_path( '/calendar' );
-                        $page_id = $page_object->ID;
-                        $permalink = get_permalink( $page_id );
-                        echo $permalink;
-                        ?>">
-            <div id="mask"></div>    
+              <a href="<?php
+                        /*
+                          $page_object = get_page_by_path( '/calendar' );
+                          $page_id = $page_object->ID;
+                          $permalink = get_permalink( $page_id );
+                          echo $permalink;
+                          */
+                          ?>">
+              <div id="mask"></div>    
 
-            <img src="" alt="Avatar" class="image welcome-img-link1 img-fluid" id="img-link-img">
+              <img src="" alt="Avatar" class="image welcome-img-link1 img-fluid" id="img-link-img">
 
-            <div class="text h6" id="img-link-text">Calendar</div>
+              <div class="text h6" id="img-link-text">Calendar</div>
 
-            <div class="overlay img-fluid" id="img-link-overlay" 
-            onMouseOver="this.style.opacity='1'"
-            onMouseOut="this.style.opacity='0'">
+              <div class="overlay img-fluid" id="img-link-overlay" 
+              onMouseOver="this.style.opacity='1'"
+              onMouseOut="this.style.opacity='0'">
 
-              <div class="text h6" id="img-link-text-top">Calendar</div>
+                <div class="text h6" id="img-link-text-top">Calendar</div>
+              </div>
+              </div>
+              </a>
             </div>
-            </div>
-            </a>
-            </div>
+
+            <div class="col">
+                
+                
+          
+                <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="500">
+  
+  
+                <a href="<?php
+                          /*
+                            $page_object = get_page_by_path( '/calendar' );
+                            $page_id = $page_object->ID;
+                            $permalink = get_permalink( $page_id );
+                            echo $permalink;
+                            */
+                            ?>">
+                <div id="mask"></div>    
+  
+                <img src="" alt="Avatar" class="image welcome-img-link1 img-fluid" id="img-link-img">
+  
+                <div class="text h6" id="img-link-text">Calendar</div>
+  
+                <div class="overlay img-fluid" id="img-link-overlay" 
+                onMouseOver="this.style.opacity='1'"
+                onMouseOut="this.style.opacity='0'">
+  
+                  <div class="text h6" id="img-link-text-top">Calendar</div>
+                </div>
+                </div>
+                </a>
+              </div>
+
+              <div class="col">
+                
+                
+          
+                <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="500">
+  
+  
+                <a href="<?php
+                          /*
+                            $page_object = get_page_by_path( '/calendar' );
+                            $page_id = $page_object->ID;
+                            $permalink = get_permalink( $page_id );
+                            echo $permalink;
+                            */
+                            ?>">
+                <div id="mask"></div>    
+  
+                <img src="" alt="Avatar" class="image welcome-img-link1 img-fluid" id="img-link-img">
+  
+                <div class="text h6" id="img-link-text">Calendar</div>
+  
+                <div class="overlay img-fluid" id="img-link-overlay" 
+                onMouseOver="this.style.opacity='1'"
+                onMouseOut="this.style.opacity='0'">
+  
+                  <div class="text h6" id="img-link-text-top">Calendar</div>
+                </div>
+                </div>
+                </a>
+              </div>
+
+              <div class="col">
+                
+                
+          
+                <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="500">
+  
+  
+                <a href="<?php
+                          /*
+                            $page_object = get_page_by_path( '/calendar' );
+                            $page_id = $page_object->ID;
+                            $permalink = get_permalink( $page_id );
+                            echo $permalink;
+                            */
+                            ?>">
+                <div id="mask"></div>    
+  
+                <img src="" alt="Avatar" class="image welcome-img-link1 img-fluid" id="img-link-img">
+  
+                <div class="text h6" id="img-link-text">Calendar</div>
+  
+                <div class="overlay img-fluid" id="img-link-overlay" 
+                onMouseOver="this.style.opacity='1'"
+                onMouseOut="this.style.opacity='0'">
+  
+                  <div class="text h6" id="img-link-text-top">Calendar</div>
+                </div>
+                </div>
+                </a>
+              </div>
               
          
 
-         <div class="col-sm-3">
-                
-                
-          
-                    <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="600">
-
-
-            <a href="<?php
-                        $page_object = get_page_by_path( '/safeguarding-at-weare' );
-                        $page_id = $page_object->ID;
-                        $permalink = get_permalink( $page_id );
-                        echo $permalink;
-                        ?>">
-            <div id="mask"></div>    
-
-            <img src="" alt="Avatar" class="image welcome-img-link2 img-fluid" id="img-link-img">
-
-            <div class="text h6" id="img-link-text">Safeguarding</div>
-
-            <div class="overlay" id="img-link-overlay" 
-            onMouseOver="this.style.opacity='1'"
-            onMouseOut="this.style.opacity='0'">
-
-              <div class="text h6" id="img-link-text-top">Safeguarding</div>
-            </div>
-            </div>
-            </a>
+         
+            
           </div>
-
-           <div class="col-sm-3">
-                
-                
-          
-          <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="700">
-
-
-            <a href="<?php
-                        $page_object = get_page_by_path( '/welcome-to-rainbow-woods-pre-school' );
-                        $page_id = $page_object->ID;
-                        $permalink = get_permalink( $page_id );
-                        echo $permalink;
-                        ?>">
-            <div id="mask"></div>    
-            
-            <img src="" alt="Avatar" class="image welcome-img-link3 img-fluid" id="img-link-img">
-
-            <div class="text h6" id="img-link-text">Pre-School</div>
-
-            <div class="overlay" id="img-link-overlay" 
-            onMouseOver="this.style.opacity='1'"
-            onMouseOut="this.style.opacity='0'">
-            
-              <div class="text h6" id="img-link-text-top">Pre-School</div>
-            </div>
-          </div>
-        </a>
-         </div>
-           
-
-           <div class="col-sm-3">
-                
-                
-          
-                      <div class="img-container img-link-1" id="img-container" data-aos="fade-up" data-aos-delay="800">
-
-
-            <a href="<?php
-                        $page_object = get_page_by_path( '/letters-home' );
-                        $page_id = $page_object->ID;
-                        $permalink = get_permalink( $page_id );
-                        echo $permalink;
-                        ?>">
-            <div id="mask"></div>    
-
-            <img src="" alt="Avatar" class="image welcome-img-link4 img-fluid" id="img-link-img">
-
-            <div class="text h6" id="img-link-text">Letters Home</div>
-
-            <div class="overlay" id="img-link-overlay" 
-            onMouseOver="this.style.opacity='1'"
-            onMouseOut="this.style.opacity='0'">
-
-              <div class="text h6" id="img-link-text-top">Letters Home</div>
-            </div>
-            </div>
-            </a>
-            </div>
-            
-          
-
-            
-              
-
-              
-            </div>
-            
           </div>
 
         </section>
