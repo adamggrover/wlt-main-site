@@ -171,7 +171,7 @@
 
     
         <div class="hero-arrow-container text-center">
-            <a class="hero-arrow " href="#welcome"><div class="hero-arrow-box animate__animated animate__fadeIn animate__delay-2s animate__slower"><i class="fa-solid fa-arrow-down fa-1x hero-arrow-icon"></i></div></a>
+            <a class="hero-arrow " href="#welcome"><div class="hero-arrow-box animate__animated animate__fadeIn animate__delay-1s animate__slower"><i class="fa-solid fa-arrow-down fa-1x hero-arrow-icon"></i></div></a>
         </div>
 
     
